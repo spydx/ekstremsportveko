@@ -64,6 +64,18 @@
                 <button aria-label="Next" class="glider-next">»</button>
                 <div role="tablist" class="dots"></div>
             </div>
+            <script src="/assets/js/glider.js">
+                new Glider(document.querySelector('.glider'), {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    draggable: true,
+                    dots: '.dots',
+                    arrows: {
+                        prev: '.glider-prev',
+                        next: '.glider-next'
+                    }
+                });
+            </script>
             <footer class="site-footer">
                 {% if site.github.is_project_page %}
                 <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.title }}</a> is maintained by <a href="{{ site.github.owner_url }}"> Kenneth Fossen </a>.</span> {% endif %}
@@ -71,17 +83,6 @@
             </footer>
         </main>
     </body>
-    <script async src="/assets/js/glider.js">
-        new Glider(document.querySelector('.glider'), {
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            }
-        });
-    </script>
+
 
 </html>
