@@ -33,11 +33,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="http://ekstremsportveko.kefo.no/assets/glider.min.css">
-    <link rel="stylesheet" href="http://ekstremsportveko.kefo.no/assets/extra.css">
+
 
     <body>
         <header class="page-header" role="banner">
             {% if site.hidebannertext %}
+            <h1></h1>
+            <h2></h2>
             <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
             {% endif %}
             <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->

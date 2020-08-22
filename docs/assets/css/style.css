@@ -1,6 +1,8 @@
+--- --- @import "{{ site.theme }}";
 .page-header {
     color: #000;
     text-align: center;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(http://ekstremsportveko.kefo.no/assets/ekstremsportveko.png);
