@@ -15,7 +15,7 @@
         gtag('config', '{{ site.google_analytics }}');
     </script>
     {% endif %}
-    <script async src="/assets/js/glider.min.js">
+    <script async src="/assets/js/glider.js">
         new Glider(document.querySelector('.glider'), {
             slidesToShow: 5,
             slidesToScroll: 1,
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="/assets/css/glider.min.css">
+    <link rel="stylesheet" href="/assets/css/glider.css">
 
 
     <body>
@@ -55,8 +55,12 @@
             {{ content }}
             <div class="glider-contain">
                 <div class="glider">
-                    <div>1</div>
-                    <div>2</div>
+                    <div>
+                        <img src="/docs/assets/showcase/01_main.png" />
+                    </div>
+                    <div>
+                        <img src="/docs/assets/showcase/02_program.png" />
+                    </div>
                     <div>3</div>
                     <div>4</div>
                     <div>5</div>
