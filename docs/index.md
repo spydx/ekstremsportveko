@@ -7,3 +7,4 @@ It will also inform you about new changes in the program through out the festiva
 
 Create your of Favorite program and attend as much fun as possible.
 
+[Submit an issue with the app](https://github.com/spydx/ekstremsportveko/issues/new/choose)
