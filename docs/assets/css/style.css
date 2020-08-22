@@ -593,7 +593,7 @@ a:hover {
     background-color: white;
     background-repeat: no-repeat;
     background-position: left;
-    background-image: url(http://ekstremsportveko.kefo.no/assets/ekstremsportveko.png);
+    background-image: url(/assets/ekstremsportveko.png);
 }
 
 @media screen and (min-width: 64em) {
