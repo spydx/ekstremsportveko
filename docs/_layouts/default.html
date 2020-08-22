@@ -14,6 +14,7 @@
         gtag('js', new Date());
         gtag('config', '{{ site.google_analytics }}');
     </script>
+    {% endif %}
     <script async src="http://ekstremsportveko.kefo.no/assets/glider.min.js">
         new Glider(document.querySelector('.glider'), {
             slidesToShow: 5,
@@ -26,18 +27,19 @@
             }
         });
     </script>
-    {% endif %}
     <meta charset="UTF-8"> {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="http://ekstremsportveko.kefo.no/assets/glider.min.css">
+    <link rel="stylesheet" href="http://ekstremsportveko.kefo.no/assets/extra.css">
 
     <body>
         <header class="page-header" role="banner">
-            <div style="background-image: url('http://ekstremsportveko.kefo.no/assets/ekstremsportveko.png');"></div>
+            {% if site.hidebannertext %}
             <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            {% endif %}
             <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
             {% if site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> {% endif %}
