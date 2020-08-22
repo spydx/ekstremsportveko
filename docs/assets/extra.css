@@ -1,4 +1,4 @@
-.page-headernew {
+.page-header {
     color: #000;
     text-align: center;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     background-image: url(http://ekstremsportveko.kefo.no/assets/ekstremsportveko.png);
 }
 
-.btnnew {
+.btn {
     display: inline-block;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.7);
@@ -18,7 +18,7 @@
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
-.main-content h6black {
+.main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
