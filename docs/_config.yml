@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 title: VekoAppen
-description: The App for Ekstremsportveko
+description: The app for Ekstremsportveko
+ekstremsportvekourl: "https://ekstremsportveko.com"
 githubissue: "https://github.com/spydx/ekstremsportveko/issues/new/choose"
