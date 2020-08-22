@@ -15,18 +15,6 @@
         gtag('config', '{{ site.google_analytics }}');
     </script>
     {% endif %}
-    <script async src="/assets/js/glider.js">
-        new Glider(document.querySelector('.glider'), {
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            }
-        });
-    </script>
     <meta charset="UTF-8"> {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -83,5 +71,17 @@
             </footer>
         </main>
     </body>
+    <script async src="/assets/js/glider.js">
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
 
 </html>
