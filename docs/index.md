@@ -13,4 +13,4 @@ Please submit any issues or requests on on of the  following links:
 
 [Google Form issue/feedback tracking (Open for everybody)](https://docs.google.com/forms/d/1BNRijYSQH7wP4vYxFtb8GrSFU0QSCKN3cm2p7yYRO6I/)
 
-[![GitHub](/docs/assets/img/GitHub-Mark-64px.png)(needs an GitHub Account)](https://github.com/spydx/ekstremsportveko/issues/new/choose)
+[GitHub (needs an GitHub Account)](https://github.com/spydx/ekstremsportveko/issues/new/choose)
