@@ -7,7 +7,7 @@ It will also inform you about new changes in the program through out the festiva
 
 Create your of Favorite program and attend as much fun as possible.
 
-## Issues and feature requests
+## Feedback / Issues and feature requests
 
 Please submit any issues or requests on on of the  following links:
 
